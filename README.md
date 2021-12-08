@@ -12,6 +12,19 @@ npm run watch
 # Production Build
 npm run build
 
+# Folder Design
+dist
+    -css
+        styles.css
+    -js
+        -core
+            -bundle.js
+        -homepage
+            -bundle.js
+        -...
+            -...
+
+
 # Create Page
 
 npm run create:page
