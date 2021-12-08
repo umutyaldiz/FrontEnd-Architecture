@@ -1,0 +1,14 @@
+/* default */
+.slider-type-1{
+    @apply bg-white dark:bg-d-1 shadow-sm border border-gray-100 dark:border-0 rounded-md hover:shadow-lg transition-shadow;
+}
+
+.slider-box{
+    @apply overflow-hidden;
+}
+.slider-box figure{
+    /* @apply bg-white dark:bg-d-1 shadow-sm border border-gray-100 dark:border-0 rounded-md ; */
+}
+.slider-box .image{
+    @apply rounded-md rounded-b-none overflow-hidden;
+}

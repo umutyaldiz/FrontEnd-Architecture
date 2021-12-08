@@ -1,0 +1,7 @@
+.menu-widget{
+    max-height: calc(100% - 100px);
+    @apply  w-full fixed top-0 left-0 py-4 overflow-auto bg-gray-300 dark:bg-d-3 -translate-y-full transition-transform duration-500 z-40;
+}
+.menu-widget.active{
+    @apply translate-y-[100px];
+}

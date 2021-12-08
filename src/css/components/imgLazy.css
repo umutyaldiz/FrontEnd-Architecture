@@ -1,0 +1,9 @@
+.swiper-lazy,
+.blazy,img[data-src] {
+    @apply filter blur-md;
+}
+
+.b-loaded,
+.swiper-lazy-loaded {
+    @apply filter blur-0 transition duration-300;
+}

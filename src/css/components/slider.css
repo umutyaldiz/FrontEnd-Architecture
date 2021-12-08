@@ -1,0 +1,28 @@
+.swiper-lazy-preloader-red{--swiper-preloader-color:#e20404;}
+
+.nav-type1{
+    @apply flex flex-col absolute top-0 left-0;
+}
+.nav-type1 .swiper-pagination-bullet{
+    @apply flex items-center justify-center p-2 pl-0 text-black font-black text-2xl leading-none drop-shadow-md;
+}
+
+.nav-type2{
+    @apply w-full flex items-center justify-between bg-gray-100 dark:bg-d-1;
+}
+.nav-type2 .swiper-pagination-bullet{
+    @apply w-full flex items-center justify-center text-sm font-black p-1  dark:bg-d-3 text-black dark:text-white overflow-hidden;
+}
+.nav-type2 .swiper-pagination-bullet-active{
+    @apply bg-white dark:bg-d-1;
+}
+
+.nav-type3{
+    @apply w-full flex items-center justify-between bg-gray-100 dark:bg-d-1;
+}
+.nav-type3 .swiper-pagination-bullet{
+    @apply w-full flex items-center justify-center text-sm font-black p-1  dark:bg-d-3 text-black dark:text-white overflow-hidden;
+}
+.nav-type3 .swiper-pagination-bullet-active{
+    @apply bg-white dark:bg-d-1;
+}

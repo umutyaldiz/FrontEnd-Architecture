@@ -1,0 +1,7 @@
+@import "./components/header.css";
+@import "./components/slider.css";
+@import "./components/news-box.css";
+@import "./components/slider-box.css";
+@import "./components/broadcast-box.css";
+
+@import "./components/imgLazy.css";

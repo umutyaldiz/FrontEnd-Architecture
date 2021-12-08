@@ -1,0 +1,14 @@
+/* default */
+.news-box figure{
+    @apply bg-white dark:bg-d-1 shadow-sm border border-gray-100 dark:border-0 rounded-md ;
+}
+.news-box .image{
+    @apply rounded-md overflow-hidden;
+}
+.news-box figcaption{
+    @apply h-14 xl:h-16;
+}
+
+.news-box.horizontal figure{
+    @apply flex items-center;
+}

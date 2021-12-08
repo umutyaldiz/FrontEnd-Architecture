@@ -1,0 +1,37 @@
+{
+  "scripts": {
+    "watch": "npx webpack-cli -w",
+    "build": "npx webpack-cli --env production",
+    "create:page": "node ./src/js/tasks/create-page.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "autoprefixer": "^10.3.2",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "css-minimizer-webpack-plugin": "^3.1.1",
+    "mini-css-extract-plugin": "^2.2.0",
+    "postcss": "^8.3.6",
+    "postcss-fixes": "^2.0.1",
+    "postcss-import": "^14.0.2",
+    "postcss-loader": "^6.1.1",
+    "style-loader": "^3.3.0",
+    "tailwindcss": "^2.2.7",
+    "terser-webpack-plugin": "^5.2.4",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "name": "fearchi",
+  "version": "0.0.1",
+  "description": "FrontEnd Architecture",
+  "author": "Umut Yaldız",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.3.0",
+    "@tailwindcss/forms": "^0.3.4",
+    "@tailwindcss/line-clamp": "^0.2.2",
+    "blazy": "^1.8.2",
+    "swiper": "^7.3.0"
+  }
+}

@@ -1,0 +1,9 @@
+.icon {
+    @apply bg-50% bg-no-repeat bg-center;
+}
+.icon.small {
+    @apply bg-30%;
+}
+.icon.big {
+    @apply bg-100%;
+}

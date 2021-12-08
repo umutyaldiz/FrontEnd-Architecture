@@ -1,0 +1,7 @@
+body {
+  @apply antialiased font-body text-sm xl:text-base bg-gray-100 dark:bg-d-2 text-gray-900;
+}
+a{
+  @apply cursor-pointer text-gray-600;
+}
+.container{}
