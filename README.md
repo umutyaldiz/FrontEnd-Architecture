@@ -14,14 +14,23 @@ npm run build
 
 # Folder Design
 dist
+
     -css
+
         styles.css
+
     -js
+
         -core
+
             -bundle.js
+
         -homepage
+
             -bundle.js
+
         -...
+        
             -...
 
 
