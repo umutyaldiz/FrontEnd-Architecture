@@ -9,6 +9,9 @@ Build: Webpack
 # Dev
 npm run watch 
 
+# SVG FONT Build
+npm run svg2font
+
 # Production Build
 npm run build
 

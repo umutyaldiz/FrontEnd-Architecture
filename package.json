@@ -2,7 +2,8 @@
   "scripts": {
     "watch": "npx webpack-cli -w",
     "build": "npx webpack-cli --env production",
-    "create:page": "node ./src/js/tasks/create-page.js"
+    "create:page": "node ./src/js/tasks/create-page.js",
+    "svg2font": "node ./src/js/tasks/svg2font.js"
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",
@@ -32,6 +33,7 @@
     "@tailwindcss/forms": "^0.3.4",
     "@tailwindcss/line-clamp": "^0.2.2",
     "blazy": "^1.8.2",
+    "svgtofont": "^3.13.1",
     "swiper": "^7.3.0"
   }
 }

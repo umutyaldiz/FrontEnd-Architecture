@@ -25,6 +25,7 @@ module.exports = {
     },
     fontFamily: {
       'body': ['"Montserrat"', 'sans-serif'],
+      'Icon': 'icon'
     },
     backgroundColor: theme => ({
       ...theme('colors'),
@@ -47,7 +48,7 @@ module.exports = {
         'img-menu-white': "url('../../src/images/icons/menu-icon-white.svg')",
         'img-moon-black': "url('../../src/images/icons/moon-icon-black.svg')",
         'img-moon-white': "url('../../src/images/icons/moon-icon-white.svg')"
-       }
+      }
     },
   },
   variants: {
