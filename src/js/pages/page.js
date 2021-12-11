@@ -13,7 +13,7 @@ export default class Page {
                 "events": []
             },
             "trackerClickClass": ".gtm-click",
-            "trackerViewClass": ".gtm-view-class"
+            "trackerViewClass": [".gtm-view-class"]
         };
         this.options = { ...this.default, ...options }; //merge
         this.tracker = new Tracker();
@@ -27,7 +27,7 @@ export default class Page {
         if (this.options.scrollEvents.scroll) {
             this.scroll.On((properties) => { // return {x,y,direction}
                 this.scroll.ScrollEvents(properties, this.options.scrollEvents.events); //page custom scroll Events
-                if(this.options.trackerViewClass){
+                if (this.options.trackerViewClass) {
                     this.tracker.ElementViewTrack(this.options.trackerViewClass); //default view object set
                 }
             });

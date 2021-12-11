@@ -13,15 +13,18 @@ class homepage extends Page {
     }
 }
 
-const scrollPropertiesShow = (properties) => {
-    console.log(properties);
+const scrollPropertiesYShow = (properties) => { //ex. function
+    console.log("Page Top Scroll: " + properties.y);
+};
+const scrollPropertiesDShow = (properties) => { //ex. function
+    console.log("Page Scroll Direction: " + properties.direction);
 };
 
 const js = new homepage({
     "scrollEvents": {
         "scroll": true,
-        "events": [scrollPropertiesShow]
+        "events": [scrollPropertiesYShow, scrollPropertiesDShow]
     },
-    "trackerViewClass": null // null or ".class"
+    //"trackerViewClass": null // null or ".class"
 });
 js.Init();
