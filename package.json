@@ -6,10 +6,10 @@
     "svg2font": "node ./src/js/tasks/svg2font.js"
   },
   "devDependencies": {
-    "@babel/core": "^7.15.5",
+    "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.15.6",
     "autoprefixer": "^10.3.2",
-    "babel-loader": "^8.2.2",
+    "babel-loader": "^8.2.3",
     "css-loader": "^6.2.0",
     "css-minimizer-webpack-plugin": "^3.1.1",
     "mini-css-extract-plugin": "^2.2.0",
@@ -33,6 +33,8 @@
     "@tailwindcss/forms": "^0.3.4",
     "@tailwindcss/line-clamp": "^0.2.2",
     "blazy": "^1.8.2",
+    "core-js": "^3.19.3",
+    "regenerator-runtime": "^0.13.9",
     "svgtofont": "^3.13.1",
     "swiper": "^7.3.0"
   }

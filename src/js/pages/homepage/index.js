@@ -1,5 +1,3 @@
-
-
 import Page from "../page";
 
 
@@ -13,11 +11,13 @@ class homepage extends Page {
     }
 }
 
-const scrollPropertiesYShow = (properties) => { //ex. function
+const scrollPropertiesYShow = async (properties) => { //ex. function
     console.log("Page Top Scroll: " + properties.y);
+    return false;
 };
-const scrollPropertiesDShow = (properties) => { //ex. function
+const scrollPropertiesDShow = async (properties) => { //ex. function
     console.log("Page Scroll Direction: " + properties.direction);
+    return false;
 };
 
 const js = new homepage({

@@ -1,3 +1,7 @@
+//@babel/polyfill deprecated.
+// import "core-js/stable";
+import "regenerator-runtime/runtime";
+
 import Scroll from "../components/scroll";
 import Tracker from "../components/tracker";
 
