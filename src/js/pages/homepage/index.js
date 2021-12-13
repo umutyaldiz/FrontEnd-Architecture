@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from "react-dom";
-import SayHello from "../../components/_reactComponents/SayHello";
+import Loading from '../../components/_reactComponents/_Loading';
+const SayHello = React.lazy(() => import('../../components/_reactComponents/SayHello'))
+
 
 import Page from "../page";
 
@@ -13,9 +15,11 @@ class homepage extends Page {
     Init() {
         super.Load();
 
-        //React Component Render++
+        //React Component Suspense Render++
         ReactDOM.render(
-            <SayHello />,
+            <Suspense fallback={<Loading />}>
+                <SayHello />
+            </Suspense>,
             document.getElementById('SayHelloReactAPP')
         );
     }
