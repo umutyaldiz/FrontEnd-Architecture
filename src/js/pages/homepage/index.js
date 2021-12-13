@@ -1,3 +1,7 @@
+import React from 'react';
+import ReactDOM from "react-dom";
+import SayHello from "../../components/_reactComponents/SayHello";
+
 import Page from "../page";
 
 
@@ -8,6 +12,12 @@ class homepage extends Page {
 
     Init() {
         super.Load();
+
+        //React Component Render++
+        ReactDOM.render(
+            <SayHello />,
+            document.getElementById('SayHelloReactAPP')
+        );
     }
 }
 
