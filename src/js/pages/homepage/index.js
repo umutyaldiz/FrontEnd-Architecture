@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import Loading from '../../components/_reactComponents/_Loading';
 const SayHello = React.lazy(() => import('../../components/_reactComponents/SayHello'))
 
-
 import Page from "../page";
 
 

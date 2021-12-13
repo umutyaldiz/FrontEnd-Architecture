@@ -12,17 +12,18 @@ module.exports = (env) => {
     mode: MODE,
     entry: glob.sync('./src/js/pages/**/index.js').reduce((acc, path) => {
       const entry = path.replace('/index.js', '')
-      .replace('./src/js/pages/', '');
-      acc[entry] = path
+        .replace('./src/js/pages/', '');
+      acc[entry] = path;
       return acc;
     }, {
       core: './src/js/core.js',
       styles: './src/css/styles.css'
     }),
     output: {
+      path: path.resolve('dist'),
+      clean: true,
       filename: 'js/[name]/bundle.js',
-      chunkFilename: "js/[name]/chunkBundle.js",
-      path: path.resolve('dist')
+      chunkFilename: "js/[name]/chunkBundle.js"
     },
     module: {
       rules: [
@@ -32,7 +33,10 @@ module.exports = (env) => {
           use: {
             loader: "babel-loader",
             options: {
-              presets: ['@babel/preset-env'],
+              presets: [
+                "@babel/preset-env",
+                "@babel/preset-react"
+              ],
               plugins: [
                 "@babel/plugin-proposal-class-properties"
               ]
