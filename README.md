@@ -1,5 +1,8 @@
 # FrontEnd-Architecture
-Tailwindcss and ES6 Javascript Architecture.
+Tailwindcss and ES6 Javascript FrontEnd Architecture.
+
+React Component Support!
+
 Build: Webpack
 
 # Demo Page
