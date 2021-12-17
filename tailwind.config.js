@@ -1,10 +1,11 @@
 module.exports = {
   mode: 'jit',
   darkMode: 'class',
-  purge: {
-    mode: 'all',
-    content: ['./*.html', './src/js/**/*.js'],
-  },
+  content: ['./*.html', './src/js/**/*.js'],
+  // purge: {
+  //   mode: 'all',
+  //   content: ['./*.html', './src/js/**/*.js'],
+  // },
   theme: {
     screens: {
       'sm': '480px',

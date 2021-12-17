@@ -1,7 +1,7 @@
 {
   "scripts": {
     "watch": "npx webpack-cli -w",
-    "build": "npx webpack-cli --env production",
+    "build": "node ./src/js/tasks/svg2font.js & npx webpack-cli --env production",
     "create:page": "node ./src/js/tasks/create-page.js",
     "svg2font": "node ./src/js/tasks/svg2font.js"
   },
