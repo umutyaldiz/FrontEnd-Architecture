@@ -43,6 +43,11 @@ module.exports = {
       '100%': '100%',
     },
     extend: {
+      aspectRatio: {
+        '16/9': '16 / 9',
+        '1/1': '1 / 1',
+        '3/1': '3 / 1',
+      },
       backgroundImage: {
         'img-menu-black': "url('../../src/images/icons/menu-icon-black.svg')",
         'img-menu-white': "url('../../src/images/icons/menu-icon-white.svg')",
@@ -55,7 +60,6 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/forms'),
-    require('@tailwindcss/line-clamp'),
-    require('@tailwindcss/aspect-ratio')
+    require('@tailwindcss/line-clamp')
   ]
 };
