@@ -1,4 +1,6 @@
-# FrontEnd-Architecture
+# FrontEnd-Architecture @umutyaldiz/hopejs
+This package is the used version. => [@umutyaldiz/hopejs](https://www.npmjs.com/package/@umutyaldiz/hopejs)
+
 Tailwindcss and ES6 Javascript FrontEnd Architecture.
 
 React Component Support!
@@ -6,7 +8,7 @@ React Component Support!
 Build: Webpack
 
 # Demo Page
-[FrontEnd-Architecture DEMO](https://umutyaldiz.com/fearchi/)
+[FrontEnd-Architecture DEMO](https://umutyaldiz.com/hopejs-example/)
 
 
 # Dev
