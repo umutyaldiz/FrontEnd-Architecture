@@ -9,7 +9,7 @@ const fileName = `${directoryName}/index.js`;
 // let jsonData = JSON.stringify(someData);
 
 let IndexJS = `
-import Page from "../page";
+import { Page } from '@umutyaldiz/hopejs';
 
 class ${name} extends Page {
     constructor(options) {

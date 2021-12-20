@@ -9,8 +9,10 @@
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.15.6",
     "@babel/preset-react": "^7.16.0",
+    "@umutyaldiz/hopejs": "^0.0.1",
     "autoprefixer": "^10.3.2",
     "babel-loader": "^8.2.3",
+    "blazy": "^1.8.2",
     "css-loader": "^6.2.0",
     "css-minimizer-webpack-plugin": "^3.1.1",
     "mini-css-extract-plugin": "^2.2.0",
@@ -32,11 +34,9 @@
   "dependencies": {
     "@tailwindcss/forms": "^0.4.0",
     "@tailwindcss/line-clamp": "^0.3.0",
-    "blazy": "^1.8.2",
     "core-js": "^3.19.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "regenerator-runtime": "^0.13.9",
     "svgtofont": "^3.13.1",
     "swiper": "^7.3.0"
   }

@@ -1,6 +1,8 @@
+import Swiper, { Navigation, Pagination, Lazy, EffectCards, Parallax, FreeMode, Autoplay } from 'swiper';
+import Blazy from 'blazy';
+import { Slider, LazyLoad } from '@umutyaldiz/hopejs';
+
 import Header from './components/_header';
-import LazyLoad from './components/lazyLoad/index';
-import Slider from './components/slider/index';
 
 class Core {
     constructor() {
@@ -9,11 +11,15 @@ class Core {
 
         this.lazyLoad = new LazyLoad();
         this.lazyLoad.Init({
+            plugin: Blazy,
             selector: '[data-src]:not(.swiper-lazy)',
             success: function (element) { }
         });
 
-        this.sliders = new Slider();
+        this.sliders = new Slider({
+            'plugin':Swiper,
+            'modules': [Navigation, Pagination, Lazy, EffectCards, Parallax, FreeMode, Autoplay]
+        });
         this.sliders.Init();
     }
 }

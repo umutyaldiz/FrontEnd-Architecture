@@ -1,10 +1,9 @@
+import Page from '@umutyaldiz/hopejs';
+
 import React, { Suspense } from 'react';
 import ReactDOM from "react-dom";
 import Loading from '../../components/_reactComponents/_Loading';
 const SayHello = React.lazy(() => import('../../components/_reactComponents/SayHello'))
-
-import Page from "../page";
-
 
 class homepage extends Page {
     constructor(options) {
